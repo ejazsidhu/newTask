@@ -1,3 +1,10 @@
+
+#steps to set up on local machine
+1- clone repo to your PC
+2- open console in root directory
+3- run  command "npm install"
+4- all set now just run "ng serve" app will be open in your default browser
+
 # NewNG6Implementation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
