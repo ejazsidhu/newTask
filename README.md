@@ -1,5 +1,5 @@
 
-#steps to set up on local machine
+# steps to set up on local machine
 1- clone repo to your PC
 2- open console in root directory
 3- run  command "npm install"
