@@ -2,7 +2,7 @@
 # Steps to set up on local machine
 ### 1- clone repo to your PC
 ### 2- open console in root directory
-### 3- make sure npm (Node package Manager) and Angular-cli [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+### 3- make sure npm (Node package Manager) and Angular-cli [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4. is installed on your PC
 ### 4- run  command "npm install"
 ### 5- all set now just run "ng serve" app will be open in your default browser
 
