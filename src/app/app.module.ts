@@ -10,6 +10,9 @@ import { LoginComponent } from './public/login/login.component';
 import { SignupComponent } from './public/signup/signup.component';
 import { Router } from './app-routing';
 import { BodyComponent } from './private/layout/body/body.component';
+import { RolesComponent } from './private/roles/roles.component';
+import { AddRolesComponent } from './private/roles/add-roles/add-roles.component';
+import { ListRolesComponent } from './private/roles/list-roles/list-roles.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +23,13 @@ import { BodyComponent } from './private/layout/body/body.component';
     HomeComponent,
     LoginComponent,
     SignupComponent,
-    BodyComponent
+    BodyComponent,
+    RolesComponent,
+    AddRolesComponent,
+    ListRolesComponent
   ],
   imports: [
-    BrowserModule,Router
+    BrowserModule, Router
   ],
   providers: [],
   bootstrap: [AppComponent]
