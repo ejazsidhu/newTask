@@ -13,6 +13,7 @@ import { BodyComponent } from './private/layout/body/body.component';
 import { RolesComponent } from './private/roles/roles.component';
 import { AddRolesComponent } from './private/roles/add-roles/add-roles.component';
 import { ListRolesComponent } from './private/roles/list-roles/list-roles.component';
+import { EditRoleComponent } from './private/roles/edit-role/edit-role.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ListRolesComponent } from './private/roles/list-roles/list-roles.compon
     BodyComponent,
     RolesComponent,
     AddRolesComponent,
-    ListRolesComponent
+    ListRolesComponent,
+    EditRoleComponent
   ],
   imports: [
     BrowserModule, Router

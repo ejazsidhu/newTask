@@ -6,6 +6,7 @@ import { HomeComponent } from "./private/home/home.component";
 import { RolesComponent } from "./private/roles/roles.component";
 import { AddRolesComponent } from "./private/roles/add-roles/add-roles.component";
 import { ListRolesComponent } from "./private/roles/list-roles/list-roles.component";
+import { EditRoleComponent } from "./private/roles/edit-role/edit-role.component";
 
 export const appRoutes: Routes = [
     {
@@ -38,6 +39,10 @@ export const appRoutes: Routes = [
                     },
                     {
                         path: 'list', component: ListRolesComponent
+                    }
+                    ,
+                    {
+                        path: 'edit/:id', component: EditRoleComponent
                     }
                 ]
 
